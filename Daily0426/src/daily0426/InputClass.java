@@ -30,7 +30,7 @@ public class InputClass {
 		while (true) {
 			System.out.println("주민번호를 입력하세요.");
 
-			address = scan.nextLong();
+			address = scan.nextLong(); 
 
 			if (address > 9999999999999L || address < 1000000000000L) {
 				System.out.println("유효한 번호를 입력하세요.");
