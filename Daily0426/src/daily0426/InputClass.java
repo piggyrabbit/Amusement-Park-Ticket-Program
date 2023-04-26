@@ -18,7 +18,7 @@ public class InputClass {
 			} else {
 				return type;
 			}
-		}
+		} 
 	}
 
 	public static int inputAge() {
